@@ -1,6 +1,8 @@
 # Create-Ovito-Movie
 
-This program creates a simple XYZ file that you can load with Ovito
+Python program to creates a simple XYZ file that you can load with Ovito.
+
+This program uses "pandas" to read the tracked positions and "numpy" to save the final file.
 
 By running the first block you will realise if the file "file.dat exists in the directory "/home/user/folder/".
 
