@@ -4,7 +4,8 @@ Python program to creates a simple XYZ file that you can load with Ovito.
 
 This program uses "pandas" to read the tracked positions and "numpy" to save the final file.
 
-By running the first block you will realise if the file "file.dat exists in the directory "/home/user/folder/".
+By running the first block you will realise if the file "file.dat exists in the directory "/home/user/folder/". Note that this syntax is for Linux, for Windows you will have to use the inverse slash, and to set something like
+workdir = 'C:\\User\\Folder\\'
 
 If the positions are already with units then the pixel pitch is 1.0, otherwise just change PPX, PPY and PPZ for the pixel pitch and the Z separation.
 
